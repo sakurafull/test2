@@ -1,7 +1,4 @@
 import axios from "axios";
-import { error } from "console";
-import { cosh } from "core-js/core/number";
-import { config } from "process";
 import querystring from "querystring"
 
 const errorway = (status,info) => {
